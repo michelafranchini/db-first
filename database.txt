@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+id - int - SMALL
+marca - stringa - VARCHAR(20)
+modello - stringa - VARCHAR(30)
+anno - date - YEAR
+prezzo - float - FLOAT(I, D)
+alimentazione - stringa - VARCHAR(20)
+cambio - stringa - VARCHAR(15)
+trazione - stringa - VARCHAR(10)
+carrozzeria - stringa - VARCHAR(20)
+chilometri - int - SMALL
+potenza - stringa - VARCHAR(6)
+porte - int - TINYINT
+colore - stringa - VARCHAR(25)
+stato interni - stringa - VARCHAR(10)
+stato motore - stringa - VARCHAR(10)
+stato carrozzeria - stringa - VARCHAR(10)
+optional - stringa - VARCHAR(200)
+numero proprietari - int - TINYINT
